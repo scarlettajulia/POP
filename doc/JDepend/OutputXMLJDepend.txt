@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="Default">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.awt">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.awt.event">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.text">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util.jar">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util.zip">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.swing">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.swing.event">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="javax.swing.tree">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="jdepend.framework">
+            <Stats>
+                <TotalClasses>17</TotalClasses>
+                <ConcreteClasses>15</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>3</Ca>
+                <Ce>5</Ce>
+                <A>0.12</A>
+                <I>0.62</I>
+                <D>0.26</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="AbstractParser.java">
+                    jdepend.framework.AbstractParser
+                </Class>
+                <Class sourceFile="ParserListener.java">
+                    jdepend.framework.ParserListener
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ClassFileParser.java">
+                    jdepend.framework.ClassFileParser
+                </Class>
+                <Class sourceFile="ClassFileParser.java">
+                    jdepend.framework.ClassFileParser$AttributeInfo
+                </Class>
+                <Class sourceFile="ClassFileParser.java">
+                    jdepend.framework.ClassFileParser$Constant
+                </Class>
+                <Class sourceFile="ClassFileParser.java">
+                    jdepend.framework.ClassFileParser$FieldOrMethodInfo
+                </Class>
+                <Class sourceFile="DependencyConstraint.java">
+                    jdepend.framework.DependencyConstraint
+                </Class>
+                <Class sourceFile="FileManager.java">
+                    jdepend.framework.FileManager
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.framework.JDepend
+                </Class>
+                <Class sourceFile="JavaClass.java">
+                    jdepend.framework.JavaClass
+                </Class>
+                <Class sourceFile="JavaClass.java">
+                    jdepend.framework.JavaClass$ClassComparator
+                </Class>
+                <Class sourceFile="JavaClassBuilder.java">
+                    jdepend.framework.JavaClassBuilder
+                </Class>
+                <Class sourceFile="JavaClassBuilder.java">
+                    jdepend.framework.JavaClassBuilder$1
+                </Class>
+                <Class sourceFile="JavaPackage.java">
+                    jdepend.framework.JavaPackage
+                </Class>
+                <Class sourceFile="PackageComparator.java">
+                    jdepend.framework.PackageComparator
+                </Class>
+                <Class sourceFile="PackageFilter.java">
+                    jdepend.framework.PackageFilter
+                </Class>
+                <Class sourceFile="PropertyConfigurator.java">
+                    jdepend.framework.PropertyConfigurator
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>java.util.jar</Package>
+                <Package>java.util.zip</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>jdepend.swingui</Package>
+                <Package>jdepend.textui</Package>
+                <Package>jdepend.xmlui</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="jdepend.swingui">
+            <Stats>
+                <TotalClasses>19</TotalClasses>
+                <ConcreteClasses>18</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>10</Ce>
+                <A>0.05</A>
+                <I>1</I>
+                <D>0.05</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="PackageNode.java">
+                    jdepend.swingui.PackageNode
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AboutDialog.java">
+                    jdepend.swingui.AboutDialog
+                </Class>
+                <Class sourceFile="AboutDialog.java">
+                    jdepend.swingui.AboutDialog$1
+                </Class>
+                <Class sourceFile="AboutDialog.java">
+                    jdepend.swingui.AboutDialog$2
+                </Class>
+                <Class sourceFile="AfferentNode.java">
+                    jdepend.swingui.AfferentNode
+                </Class>
+                <Class sourceFile="DependTree.java">
+                    jdepend.swingui.DependTree
+                </Class>
+                <Class sourceFile="DependTreeModel.java">
+                    jdepend.swingui.DependTreeModel
+                </Class>
+                <Class sourceFile="EfferentNode.java">
+                    jdepend.swingui.EfferentNode
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$1
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$2
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$3
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$4
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$5
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$6
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$AboutAction
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$ExitAction
+                </Class>
+                <Class sourceFile="JDepend.java">
+                    jdepend.swingui.JDepend$TreeListener
+                </Class>
+                <Class sourceFile="StatusPanel.java">
+                    jdepend.swingui.StatusPanel
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.awt</Package>
+                <Package>java.awt.event</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>javax.swing</Package>
+                <Package>javax.swing.event</Package>
+                <Package>javax.swing.tree</Package>
+                <Package>jdepend.framework</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="jdepend.textui">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>5</Ce>
+                <A>0</A>
+                <I>0.83</I>
+                <D>0.17</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="JDepend.java">
+                    jdepend.textui.JDepend
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>jdepend.framework</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>jdepend.xmlui</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="jdepend.xmlui">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="JDepend.java">
+                    jdepend.xmlui.JDepend
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>jdepend.framework</Package>
+                <Package>jdepend.textui</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="main">
+            <Stats>
+                <TotalClasses>14</TotalClasses>
+                <ConcreteClasses>13</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>6</Ce>
+                <A>0.07</A>
+                <I>1</I>
+                <D>0.07</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Makhluk.java">
+                    main.Makhluk
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Alien.java">
+                    main.Alien
+                </Class>
+                <Class sourceFile="Artist.java">
+                    main.Artist
+                </Class>
+                <Class sourceFile="Board.java">
+                    main.Board
+                </Class>
+                <Class sourceFile="Ghost.java">
+                    main.Ghost
+                </Class>
+                <Class sourceFile="GhostBuster.java">
+                    main.GhostBuster
+                </Class>
+                <Class sourceFile="Human.java">
+                    main.Human
+                </Class>
+                <Class sourceFile="KeyListeners.java">
+                    main.KeyListeners
+                </Class>
+                <Class sourceFile="Knight.java">
+                    main.Knight
+                </Class>
+                <Class sourceFile="ListMakhluk.java">
+                    main.ListMakhluk
+                </Class>
+                <Class sourceFile="Main.java">
+                    main.Main
+                </Class>
+                <Class sourceFile="Military.java">
+                    main.Military
+                </Class>
+                <Class sourceFile="Monster.java">
+                    main.Monster
+                </Class>
+                <Class sourceFile="Predator.java">
+                    main.Predator
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>Default</Package>
+                <Package>java.awt.event</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>javax.swing</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>
